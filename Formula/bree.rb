@@ -3,14 +3,14 @@
 class Bree < Formula
   desc "Local memory inspection for macOS"
   homepage "https://github.com/yuyongyan29-dev/Bree"
-  url "https://github.com/yuyongyan29-dev/Bree/releases/download/v0.3.0-alpha.7/bree-aarch64-apple-darwin", using: :nounzip
-  version "0.3.0-alpha.7"
-  sha256 "bd7e48682de063f3c333765c188a60bfde87ba0436c935c65f7045de6b5fcddb"
+  url "https://github.com/yuyongyan29-dev/Bree/releases/download/v0.4.0-alpha.1/bree-aarch64-apple-darwin", using: :nounzip
+  version "0.4.0-alpha.1"
+  sha256 "58551029fea26c45f654f268e1317309b64935526aa9410b6b9bd780c447dde2"
   license "GPL-3.0-only"
 
   bottle do
-    root_url "https://github.com/yuyongyan29-dev/Bree/releases/download/v0.3.0-alpha.7"
-    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "663f2f4a6db6e1ed9c198dc99040a680a27e5d59db134064dd955517b7186e3c"
+    root_url "https://github.com/yuyongyan29-dev/Bree/releases/download/v0.4.0-alpha.1"
+    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "763332ca837ab55c434959e5b759aa57e11055884c909bd832c5bf99729697fc"
   end
 
   depends_on arch: :arm64
